@@ -22,7 +22,6 @@ document.querySelector("#play").addEventListener("click", function(){
 //element 3: pause button
 document.querySelector("#pause").addEventListener("click", function(){
     console.log("pause video");
-	// document.querySelector("#volume").innerHTML = video.volume * 100 + "100%"
     video.pause();
 }
 )
